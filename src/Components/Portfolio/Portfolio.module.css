@@ -1,0 +1,7 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    outline: 1px solid red;
+}

@@ -1,0 +1,25 @@
+.container {
+  /* outline: 3px solid green; */
+}
+
+.logo {
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-top: 188px;
+}
+
+.description {
+  font-size: 76px;
+  line-height: 76px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.slogan {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+}
