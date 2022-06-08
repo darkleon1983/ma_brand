@@ -8,15 +8,16 @@ ul a {
   text-decoration: none;
   color: inherit;
 }
-ul div {
-  display: grid;
-  justify-self: end;
+
+.item {
+  margin-left: 22px;
 }
 
 .container {
   width: 80%;
   display: grid;
   justify-self: center;
+  margin-top: 56px;
 }
 
 .list {

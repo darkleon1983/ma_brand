@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <ul className={styles.list}>
-        <div><a href="#">Проекты</a></div>
-        <div><a href="#">О, MAB</a></div>
-        <div><a href="#">Контакты</a></div>
-        <div><a href="#">Магазин</a></div>
+        <div className={styles.item}><a href="#">Проекты</a></div>
+        <div className={styles.item}><a href="#">О, MAB</a></div>
+        <div className={styles.item}><a href="#">Контакты</a></div>
+        <div className={styles.item}><a href="#">Магазин</a></div>
       </ul>
     </div>
   );
