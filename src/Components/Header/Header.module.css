@@ -14,10 +14,10 @@ ul a {
 }
 
 .container {
-  width: 80%;
   display: grid;
-  justify-self: center;
+   justify-self: end;
   margin-top: 56px;
+  font-size: 17px;
 }
 
 .list {
