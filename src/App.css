@@ -6,7 +6,7 @@ body {
 
 .App {
   display: grid;
-  width: 80%;
+  width: 95%;
   justify-self: center;
   margin: 0 auto;
   padding: 0;

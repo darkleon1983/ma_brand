@@ -5,7 +5,7 @@ const GaleryItem = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <img src={require('./../../img/alma.png')} />
+      <img alt='image' src={props.source} />
       </div>
       <hr />
       <div>дизайн-продакшн-стратегия  2021</div>

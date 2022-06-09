@@ -6,8 +6,20 @@ const Portfolio = () => {
   return (
     <div className={styles.container}>
       <GaleryItem 
-        text="the fuck"
-        image="./../../img/alma.png"
+        text='boom'
+        source='img/alma.png'
+      />
+      <GaleryItem 
+        text='boom'
+        source='img/cvetMet.png'
+      />
+      <GaleryItem 
+        text='boom'
+        source='img/esh.png'
+      />
+      <GaleryItem 
+        text='boom'
+        source='img/mazda.png'
       />
     </div>
   );
