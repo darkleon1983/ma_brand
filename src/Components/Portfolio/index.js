@@ -6,21 +6,22 @@ const Portfolio = () => {
   return (
     <div className={styles.container}>
       <GaleryItem 
-        text='boom'
+        text='альма косметикс'
         source='img/alma.png'
       />
       <GaleryItem 
-        text='boom'
+        text='мц маршал'
+        source='img/mazda.png'
+      />
+      <GaleryItem 
+        text='красцветмет'
         source='img/cvetMet.png'
       />
       <GaleryItem 
-        text='boom'
+        text='ЭнергоСтройХолдинг'
         source='img/esh.png'
       />
-      <GaleryItem 
-        text='boom'
-        source='img/mazda.png'
-      />
+      
     </div>
   );
 }

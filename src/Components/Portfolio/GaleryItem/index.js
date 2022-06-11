@@ -5,11 +5,11 @@ const GaleryItem = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-      <img alt='image' src={props.source} />
+        <img alt='image' src={props.source} />
       </div>
-      <hr />
-      <div>дизайн-продакшн-стратегия  2021</div>
-      <div>
+      <div className={styles.line}></div>
+      <div className={styles.slogan}>дизайн-продакшн-стратегия  2021</div>
+      <div className={styles.partnerName}>
         {props.text}
       </div>
     </div>
