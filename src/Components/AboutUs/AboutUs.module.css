@@ -3,17 +3,17 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  }
+}
 
-  h2 {
-    margin: 0;
-    padding: 0;
-  }
+h2 {
+  margin: 0;
+  padding: 0;
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .heading {
   margin: 0;
@@ -57,7 +57,7 @@
 .photoContainer {
   margin-top: 50px;
   width: 100%;
-  height:  100px;
+  height: 100px;
   background-color: salmon;
   grid-column-start: 1;
   grid-column-end: 3;

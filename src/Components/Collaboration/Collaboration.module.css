@@ -1,0 +1,50 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 135px;
+  display: grid;
+}
+
+.heading {
+  font-size: 42px;
+}
+
+.itemList {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 704px 1fr 1fr;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  font-size: 22px;
+}
+
+.contacts {
+  font-size: 25px;
+}
+
+.cities {
+  text-transform: uppercase;
+}
+.box {
+  margin-top: 50px;
+  text-align: center;
+  width: 341px;
+  height: 50px;
+  background-color: rgba(67, 110, 205, 1);
+  border-radius: 30px;
+  display: grid;
+}
+
+.anchor {
+  align-self: center;
+  font-size: 22px;
+}
