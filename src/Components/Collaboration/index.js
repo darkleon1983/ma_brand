@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Collaboration.module.css';
+import Button from "../Button/index.js";
 
 const Collaboration = () => {
   return (
@@ -19,11 +20,7 @@ const Collaboration = () => {
           <div className={styles.contacts}><a href="tel:+79135383819">+7-913-538-38-19</a></div>
           <div className={styles.contacts}><a href="mailto:INFO@MA-BRAND.RU">INFO@MA-BRAND.RU</a></div>
         </div>
-        <div className={styles.box}>
-        <div className={styles.anchor}>
-          <a href="#">свяжитесь с нами</a>
-        </div>
-      </div>
+        <Button text='свяжитесь с нами' width={{width: 340}} />
       </div>
     </div>
   );

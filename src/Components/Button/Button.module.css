@@ -1,0 +1,15 @@
+.container {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(67, 110, 205, 1);
+    color: white;
+    border-radius: 30px;
+    display: grid;
+  }
+  
+  .anchor {
+    align-self: center;
+    font-size: 22px;
+    text-transform: uppercase;
+  }

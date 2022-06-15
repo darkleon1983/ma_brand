@@ -34,17 +34,3 @@ p {
 .cities {
   text-transform: uppercase;
 }
-.box {
-  margin-top: 50px;
-  text-align: center;
-  width: 341px;
-  height: 50px;
-  background-color: rgba(67, 110, 205, 1);
-  border-radius: 30px;
-  display: grid;
-}
-
-.anchor {
-  align-self: center;
-  font-size: 22px;
-}

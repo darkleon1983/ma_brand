@@ -6,6 +6,7 @@ import AboutUs from './Components/AboutUs/index.js';
 import Services from './Components/Services/index.js';
 import Clients from './Components/Clients/index.js';
 import Collaboration from './Components/Collaboration/index.js';
+import Footer from './Components/Footer/index.js';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Clients />
       <Collaboration />
       <div><hr /></div>
-      <Header /> 
+      <Footer /> 
     </div>
   );
 }

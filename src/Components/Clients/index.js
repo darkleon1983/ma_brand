@@ -6,7 +6,7 @@ const Clients = (props) => {
   return (
     <div>
       <div className={styles.container}>
-        <h2 className={styles.heading}>Услуги</h2>
+        <h2 className={styles.heading}>Клиенты</h2>
       </div>
       <div className={styles.list}>
         <div className={styles.item}><ClientSvg source='img/neoTran.svg' /></div>

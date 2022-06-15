@@ -17,8 +17,8 @@ ul a {
   display: grid;
   justify-self: end;
   margin-top: 56px;
-  font-size: 17px;
-  
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .list {

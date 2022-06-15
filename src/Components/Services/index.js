@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Services.module.css';
+import Button from "../Button/index.js";
 
 const Services = () => {
   return (
@@ -50,11 +51,7 @@ const Services = () => {
             спецпроекты</p>
         </div>
       </div>
-      <div className={styles.box}>
-        <div className={styles.anchor}>
-          <a href="#">оставить заявку</a>
-        </div>
-      </div>
+      <Button text='оставить заявку' width={{width: 340}} />
     </div>
   );
 }
