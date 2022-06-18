@@ -1,50 +1,121 @@
-.container {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+@media screen and (min-width: 770px) {
+
+  .container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
+@media screen and (max-width: 769px) {
+
+  .container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: repeat(6, minmax(50px, auto));
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  
 h2 {
   margin: 0;
   padding: 0;
 }
+}
+@media screen and (max-width: 769px) {
+  
+  h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  }
+
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-.heading {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  font-size: 42px;
+@media screen and (min-width: 770px) {
+
+  .heading {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .heading {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-size: 32px;
+    color: red;
+  }
 }
 
 .promo {
   font-size: 25px;
+  margin-top: 25px;
 }
 
-.description {
-  font-size: 22px;
-  display: grid;
-  grid-template-columns: 1fr 160px;
-  grid-template-rows: 1fr 50px;
+@media screen and (min-width: 770px) {
+  .description {
+    font-size: 22px;
+    display: grid;
+  }
 }
 
-.paragraph {
-  grid-column-start: 1;
-  grid-column-end: 3;
+@media screen and (max-width: 769px) {
+  .description {
+    width: 350px;
+    margin-top: 25px;
+    font-size: 22px;
+    display: grid;
+  }
 }
 
-.photoContainer {
-  margin-top: 50px;
-  width: 100%;
-  height: 100px;
-  background-color: salmon;
-  grid-column-start: 1;
-  grid-column-end: 3;
+@media screen and (min-width: 770px) {
+  .paragraph {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .paragraph {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 770px) {
+
+  .photoContainer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: salmon;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (max-width: 769px) {
+
+  .photoContainer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: salmon;
+
+  }
 }

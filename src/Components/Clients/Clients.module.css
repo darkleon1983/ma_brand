@@ -9,12 +9,25 @@
   font-size: 42px;
 }
 
+@media screen and (min-width: 770px) {
+  
 .list {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, auto);
 }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .list {
+    width: 100%;
+    display: grid;
+    justify-content: start;
+
+  }
+  }
 
 .item {
   display: grid;

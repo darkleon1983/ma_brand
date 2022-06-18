@@ -10,6 +10,7 @@ const Header = () => {
         <div className={styles.item}><a href="#">Контакты</a></div>
         <div className={styles.item}><a href="#">Магазин</a></div>
       </ul>
+
     </div>
   );
 }

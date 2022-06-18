@@ -1,3 +1,4 @@
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -25,4 +26,10 @@ ul a {
   display: grid;
   grid-template-columns: repeat(4, minmax(50px, 100px));
   justify-self: end;
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    display: none;
+  }
 }

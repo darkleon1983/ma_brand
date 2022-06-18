@@ -8,15 +8,37 @@ p {
   display: grid;
 }
 
-.heading {
-  font-size: 42px;
+@media screen and(min-width: 770px) {
+
+  .heading {
+    font-size: 42px;
+  }
 }
 
+@media screen and(max-width: 769px) {
+
+  .heading {
+    font-size: 52px;
+  }
+}
+
+
+@media screen and (min-width: 770px) {
+  
 .itemList {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 704px 1fr 1fr;
 }
+}
+
+@media screen and (max-width: 769px) {
+  
+  .itemList {
+    margin-top: 50px;
+    display: grid;
+  }
+  }
 
 .item {
   margin: 0;

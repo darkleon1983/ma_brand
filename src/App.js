@@ -7,11 +7,13 @@ import Services from './Components/Services/index.js';
 import Clients from './Components/Clients/index.js';
 import Collaboration from './Components/Collaboration/index.js';
 import Footer from './Components/Footer/index.js';
+import HeaderMobile from './Components/HeaderMobile/index.js';
 
 
 function App() {
   return (
     <div className="App">
+      <HeaderMobile />
       <Header />
       <Promo />
       <Portfolio />
