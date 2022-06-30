@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 import Promo from './Components/Promo';
@@ -8,21 +9,29 @@ import Clients from './Components/Clients/index.js';
 import Collaboration from './Components/Collaboration/index.js';
 import Footer from './Components/Footer/index.js';
 import HeaderMobile from './Components/HeaderMobile/index.js';
+import Projects from './Components/Projects/index.js';
+import { Link, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home/index';
 
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <HeaderMobile />
       <Header />
-      <Promo />
-      <Portfolio />
-      <AboutUs />
-      <Services />
-      <Clients />
-      <Collaboration />
+      <div>
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="" element={<Home />} />
+        </Routes>
+      </div>
       <div><hr /></div>
-      <Footer /> 
+      <Footer />
+
+      <div>
+
+      </div>
     </div>
   );
 }

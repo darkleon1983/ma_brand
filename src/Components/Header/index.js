@@ -1,16 +1,18 @@
 import React from "react";
+import { Link, Route, Routes } from "react-router-dom";
 import styles from './Header.module.css';
+import AboutUs from './../AboutUs/index';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className={styles.container}>
       <ul className={styles.list} id="header">
-        <div className={styles.item}><a href="#">Проекты</a></div>
-        <div className={styles.item}><a href="#">О, MAB</a></div>
-        <div className={styles.item}><a href="#">Контакты</a></div>
-        <div className={styles.item}><a href="#">Магазин</a></div>
+        <Link to='/projects'>Проекты</Link>
+        <Link to='/about'>О, MAB</Link>
+        <Link to='/projects'>Контакты</Link>
+        <Link to='/projects'>Магазин</Link>
+        <Link to=''>Home</Link>
       </ul>
-
     </div>
   );
 }
