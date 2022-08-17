@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import styles from "./Header.module.css";
-import AboutUs from "./../AboutUs/index";
+import AboutUs from "../AboutUs/index";
+import "./../../App.css";
 
-export const Header = (props) => {
+export const Header_test = (props) => {
   return (
-    <div className={styles.container}>
-      <ul className={styles.list} id="header">
+    <div className="text-yellow-500 text-right">
+      <ul className="text-yellow-500" id="header">
         <Link to="/projects">Проекты</Link>
         <Link to="/about">О, MAB</Link>
         <Link to="/projects">Контакты</Link>
